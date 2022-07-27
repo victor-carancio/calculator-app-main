@@ -1,0 +1,73 @@
+.header{
+    width: 23.4375rem;
+    margin: auto;
+    @include breakpoint-up(medium){      
+        width: 33.75rem;
+        margin-top: 2.5rem;
+    }
+
+    &-container{
+        width: 20.3125rem;
+        height: 6.5625rem;
+        margin-left: 1.5625rem;
+        margin-right: 1.5625rem;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        @include breakpoint-up(medium){   
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+    }
+
+    &-theme{
+        letter-spacing: 0.125rem;
+        font-size: 13px;
+    }
+
+    .toggle{
+        width: 140px;
+        height: 45px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+
+        &-container{
+            width: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        &-numbers{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        &-rectangle{
+            width: 70px;
+            height: 25px;
+            border-radius: 15px;
+            
+        }
+
+        &-circle{
+            width: 15px;
+            height: 15px;
+            border-radius: 7px;
+            margin-top: 5px;
+            margin-left: 4px;
+            margin-right: 4px;
+
+            transform: translateX(0%);
+           
+        }
+
+       
+    }
+}

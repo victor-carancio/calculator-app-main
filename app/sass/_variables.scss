@@ -1,0 +1,97 @@
+//font sizes
+
+$font-xlg: 3.125rem;
+$font-lg: 2.5rem;
+$font-xmed: 2.1875rem;
+$font-med: 1.875rem;
+$font-smed: 1.5625rem;
+
+
+//theme dark
+
+//backgrounds
+$theme-one-background: hsl(222, 26%, 31%); // (main background)
+$theme-one-toggle: hsl(223, 31%, 20%); //(toggle background, keypad background)
+$theme-one-screen: hsl(224, 36%, 15%); //(screen background)
+
+
+//fonts
+
+$white: white;
+$screen-font-color: hsl(30, 25%, 89%); //(key background)
+$normal-key-font: hsl(222, 26%, 31%);
+    
+//normal keys
+$normal-key-background: hsl(30, 25%, 89%); //(key background)
+$normal-key-hover: hsl(30, 25%, 89%, 90%);
+$normal-key-shadow: hsl(28, 16%, 65%); //(key shadow)
+
+//erase keys
+$erase-keys-background: hsl(225, 21%, 49%); //(key background)
+$erase-keys-hover: hsl(224, 33%, 70%);
+$erase-keys-shadow: hsl(224, 28%, 35%); //(key shadow)
+
+//equal keys
+$equal-keys-background: hsl(6, 63%, 50%); //(key background, toggle)
+$equal-keys-hover: hsl(6, 76%, 64%);
+$equal-keys-shadow: hsl(6, 70%, 34%); //(key shadow)
+
+
+//theme light
+
+//backgrounds
+$theme-two-background: hsl(0, 0%, 90%); // (main background)
+$theme-two-toggle: hsl(0, 5%, 81%); //(toggle background, keypad background)
+$theme-two-screen: hsl(0, 0%, 93%); //(screen background)
+
+//fonts
+
+$white: white;
+
+$normal-key-font-two: hsl(60, 10%, 19%);
+
+
+//normal keys
+$normal-key-background-two: hsl(45, 7%, 89%); //(key background)
+$normal-key-shadow-two: hsl(35, 11%, 61%); //(key shadow)
+
+//erase keys
+$erase-keys-background-two: hsl(185, 42%, 37%); //(key background)
+$erase-keys-hover-two: hsl(185, 38%, 58%);
+$erase-keys-shadow-two: hsl(185, 58%, 25%); //(key shadow)
+
+//equal keys
+$equal-keys-background-two: hsl(25, 98%, 40%); //(key background, toggle)
+$equal-keys-hover-two: hsl(6, 80%, 72%);
+$equal-keys-shadow-two: hsl(25, 99%, 27%); //(key shadow)
+
+
+//theme purple
+
+
+//backgrounds
+$theme-three-background: hsl(268, 75%, 9%); // (main background)
+$theme-three-toggle: hsl(268, 71%, 12%); //(toggle background, keypad background)
+$theme-three-screen: hsl(268, 71%, 12%); //(screen background)
+
+
+//fonts
+$white: white;
+$screen-font-color-three: hsl(52, 100%, 62%); //(key background)
+$normal-key-font-three: hsl(52, 100%, 62%);
+$erase-key-font: hsl(198, 20%, 13%);
+    
+//normal keys
+$normal-key-background-three: hsl(268, 47%, 21%); //(key background)
+$normal-key-hover-three: hsl(268, 35%, 40%);
+$normal-key-shadow-three: hsl(290, 70%, 36%); //(key shadow)
+
+//erase keys
+$erase-keys-background-three: hsl(281, 89%, 26%); //(key background)
+$erase-keys-hover-three: hsl(281, 47%, 47%);
+$erase-keys-shadow-three: hsl(285, 91%, 52%); //(key shadow)
+
+//equal keys
+$equal-keys-background-three: hsl(176, 100%, 44%); //(key background, toggle)
+$equal-keys-hover-three: hsl(176, 89%, 66%);
+$equal-keys-shadow-three: hsl(177, 92%, 70%); //(key shadow)

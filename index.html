@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+ 	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+ 	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="./app/css/styles.css">
+  	<title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body class="theme-toggle dark-theme">
+	<div class="main-container">
+		<header class="header">
+			<div class="header-container">
+				<h2 class="header-title">calc</h2>
+				<div class="toggle">
+					<p class="header-theme" class=>THEME</p>
+					<div class="toggle-container">
+						<div class="toggle-numbers">
+							<p>1</p>
+							<p>2</p>
+							<p>3</p>
+						</div>
+						<div class="toggle-rectangle">
+							<div class="toggle-circle default-theme"></div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		  </header>
+	
+		<div class="screen">
+			<div class="screen-container">
+				<input class="screen-numbers" id="screen-number"type="text" value="" readonly>
+				<input class="screen-total" id="screen-total"type="text" value="0" readonly>
+			</div>
+		</div>
+	
+		<div class="content">
+			<div class="content-container">
+				<button id="key"class="content-one button button-normal" value="1">1</button>
+				<button id="key" class="content-two button button-normal" value="2">2</button>
+				<button id="key" class="content-threee button button-normal" value="3">3</button>
+				<button class="content-four button button-normal" value="4">4</button>
+				<button class="content-five button button-normal" value="5">5</button>
+				<button class="content-six button button-normal" value="6">6</button>
+				<button class="content-seven button button-normal"  value="7">7</button>
+				<button class="content-eight button button-normal" value="8">8</button>
+				<button class="content-nine button button-normal" value="9">9</button>
+				<button class="content-zero button button-normal" value="0">0</button>
+				<button class="content-plus button button-normal" value="+">+</button>
+				<button class="content-less button button-normal" value="-">-</button>
+				<button class="content-multiply button button-normal" value="*">*</button>
+				<button class="content-split button button-normal" value="/">/</button>
+				<button class="content-dot button button-normal" value=".">.</button>
+				<button class="content-del button button-erase" value="DEL">DEL</button>
+				<button class="content-reset button button-erase" value="RESET">RESET</button>
+				<button class="content-equal button button-equal" value="=">=</button>
+			</div>
+		</div>
+		
+
+	</div>
+  	
+	<script src="./app/scripts/script.js"></script>
+  	<script src="./app/scripts/theme-toggle.js"></script>
+ 
+</body>
+</html>

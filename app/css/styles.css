@@ -1,0 +1,439 @@
+.on-purple {
+  -webkit-animation: to-purple 300ms ease-in-out forwards;
+          animation: to-purple 300ms ease-in-out forwards;
+}
+
+@-webkit-keyframes to-purple {
+  from {
+    transform: translateX(150%);
+  }
+  to {
+    transform: translateX(300%);
+  }
+}
+
+@keyframes to-purple {
+  from {
+    transform: translateX(150%);
+  }
+  to {
+    transform: translateX(300%);
+  }
+}
+.on-light {
+  -webkit-animation: to-light 300ms ease-in-out forwards;
+          animation: to-light 300ms ease-in-out forwards;
+}
+
+@-webkit-keyframes to-light {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(150%);
+  }
+}
+
+@keyframes to-light {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(150%);
+  }
+}
+.on-dark {
+  -webkit-animation: to-dark 300ms ease-in-out forwards;
+          animation: to-dark 300ms ease-in-out forwards;
+}
+
+@-webkit-keyframes to-dark {
+  from {
+    transform: translateX(300%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes to-dark {
+  from {
+    transform: translateX(300%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+.default-theme {
+  transform: translateX(0%);
+}
+
+.dark-theme {
+  background: hsl(222deg, 26%, 31%);
+  color: white;
+}
+.dark-theme input {
+  color: hsl(30deg, 25%, 89%);
+}
+.dark-theme .screen-container {
+  background: hsl(224deg, 36%, 15%);
+}
+.dark-theme .content-container {
+  background: hsl(223deg, 31%, 20%);
+}
+.dark-theme .toggle-rectangle {
+  background: hsl(223deg, 31%, 20%);
+}
+.dark-theme .toggle-circle {
+  background: hsl(6deg, 63%, 50%);
+}
+.dark-theme .button {
+  border-bottom: 0.25rem solid hsl(28deg, 16%, 65%);
+  background: hsl(30deg, 25%, 89%);
+  color: hsl(222deg, 26%, 31%);
+}
+.dark-theme .button:hover {
+  cursor: pointer;
+  background: white;
+}
+.dark-theme .button-erase {
+  background: hsl(225deg, 21%, 49%);
+  border-bottom: 0.25rem solid hsl(224deg, 28%, 35%);
+  color: white;
+}
+.dark-theme .button-erase:hover {
+  background: hsl(224deg, 33%, 70%);
+}
+.dark-theme .button-equal {
+  background: hsl(6deg, 63%, 50%);
+  border-bottom: 0.25rem solid hsl(6deg, 70%, 34%);
+  color: white;
+}
+.dark-theme .button-equal:hover {
+  background: hsl(6deg, 76%, 64%);
+}
+
+.light-theme {
+  background: hsl(0deg, 0%, 90%);
+  color: hsl(60deg, 10%, 19%);
+}
+.light-theme input {
+  color: hsl(60deg, 10%, 19%);
+}
+.light-theme .screen-container {
+  background: hsl(0deg, 0%, 93%);
+}
+.light-theme .content-container {
+  background: hsl(0deg, 5%, 81%);
+}
+.light-theme .toggle-rectangle {
+  background: hsl(0deg, 5%, 81%);
+}
+.light-theme .toggle-circle {
+  background: hsl(25deg, 98%, 40%);
+}
+.light-theme .button {
+  border-bottom: 0.25rem solid hsl(35deg, 11%, 61%);
+  background: hsl(45deg, 7%, 89%);
+  color: hsl(60deg, 10%, 19%);
+}
+.light-theme .button:hover {
+  cursor: pointer;
+  background: white;
+}
+.light-theme .button-erase {
+  background: hsl(185deg, 42%, 37%);
+  border-bottom: 0.25rem solid hsl(185deg, 58%, 25%);
+  color: white;
+}
+.light-theme .button-erase:hover {
+  background: hsl(185deg, 38%, 58%);
+}
+.light-theme .button-equal {
+  background: hsl(25deg, 98%, 40%);
+  border-bottom: 0.25rem solid hsl(25deg, 99%, 27%);
+  color: white;
+}
+.light-theme .button-equal:hover {
+  background: hsl(6deg, 80%, 72%);
+}
+
+.purple-theme {
+  background: hsl(268deg, 75%, 9%);
+  color: hsl(52deg, 100%, 62%);
+}
+.purple-theme input {
+  color: hsl(52deg, 100%, 62%);
+}
+.purple-theme .screen-container {
+  background: hsl(268deg, 71%, 12%);
+}
+.purple-theme .content-container {
+  background: hsl(268deg, 71%, 12%);
+}
+.purple-theme .toggle-rectangle {
+  background: hsl(268deg, 71%, 12%);
+}
+.purple-theme .toggle-circle {
+  background: hsl(176deg, 100%, 44%);
+}
+.purple-theme .button {
+  border-bottom: 0.25rem solid hsl(290deg, 70%, 36%);
+  background: hsl(268deg, 47%, 21%);
+  color: hsl(52deg, 100%, 62%);
+}
+.purple-theme .button:hover {
+  cursor: pointer;
+  background: hsl(268deg, 35%, 40%);
+}
+.purple-theme .button-erase {
+  background: hsl(281deg, 89%, 26%);
+  border-bottom: 0.25rem solid hsl(285deg, 91%, 52%);
+  color: white;
+}
+.purple-theme .button-erase:hover {
+  background: hsl(281deg, 47%, 47%);
+}
+.purple-theme .button-equal {
+  background: hsl(176deg, 100%, 44%);
+  border-bottom: 0.25rem solid hsl(177deg, 92%, 70%);
+  color: hsl(198deg, 20%, 13%);
+}
+.purple-theme .button-equal:hover {
+  background: hsl(176deg, 89%, 66%);
+}
+
+.header {
+  width: 23.4375rem;
+  margin: auto;
+}
+@media (min-width: 40em) {
+  .header {
+    width: 33.75rem;
+    margin-top: 2.5rem;
+  }
+}
+.header-container {
+  width: 20.3125rem;
+  height: 6.5625rem;
+  margin-left: 1.5625rem;
+  margin-right: 1.5625rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 40em) {
+  .header-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.header-theme {
+  letter-spacing: 0.125rem;
+  font-size: 13px;
+}
+.header .toggle {
+  width: 140px;
+  height: 45px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.header .toggle-container {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header .toggle-numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header .toggle-rectangle {
+  width: 70px;
+  height: 25px;
+  border-radius: 15px;
+}
+.header .toggle-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 7px;
+  margin-top: 5px;
+  margin-left: 4px;
+  margin-right: 4px;
+  transform: translateX(0%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  min-width: 23.4375rem;
+}
+body .main-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 40em) {
+  body {
+    min-width: 33.75rem;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  border-radius: 0.625rem;
+  background: none;
+  font-size: 2.1875rem;
+}
+@media (min-width: 40em) {
+  input {
+    font-size: 3.125rem;
+  }
+}
+
+.button {
+  border: none;
+  font-size: 1.875rem;
+  border-radius: 0.625rem;
+}
+@media (min-width: 40em) {
+  .button {
+    font-size: 2.5rem;
+  }
+}
+.button:hover {
+  cursor: pointer;
+}
+.button:active {
+  border-bottom: none;
+}
+.button-erase {
+  font-size: 1.5625rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+.content-container {
+  height: 26.25rem;
+  width: 20.3125rem;
+  border-radius: 0.625rem;
+  display: grid;
+  gap: 0.9375rem;
+  grid-template-columns: repeat(4, 3.75rem);
+  grid-template-rows: repeat(4, 4.0625rem) 4.0625rem;
+  grid-template-areas: "seven eight nine del" "four five six plus" "one two three less" "dott zeroo split multiplyy" "resett resett equal equal";
+  justify-content: center;
+  align-content: center;
+}
+@media (min-width: 40em) {
+  .content-container {
+    height: 30rem;
+    width: 33.75rem;
+    gap: 1.25rem;
+    grid-template-columns: repeat(4, 6.25rem);
+  }
+}
+.content-one {
+  grid-area: one;
+}
+.content-two {
+  grid-area: two;
+}
+.content-three {
+  grid-area: three;
+}
+.content-four {
+  grid-area: four;
+}
+.content-five {
+  grid-area: five;
+}
+.content-six {
+  grid-area: six;
+}
+.content-seven {
+  grid-area: seven;
+}
+.content-eight {
+  grid-area: eight;
+}
+.content-nine {
+  grid-area: nine;
+}
+.content-zero {
+  grid-area: zeroo;
+}
+.content-plus {
+  grid-area: plus;
+}
+.content-less {
+  grid-area: less;
+}
+.content-multiply {
+  grid-area: multiplyy;
+}
+.content-split {
+  grid-area: split;
+}
+.content-del {
+  grid-area: del;
+}
+.content-reset {
+  grid-area: resett;
+}
+.content-equal {
+  grid-area: equal;
+}
+.content-dot {
+  grid-area: dott;
+}
+
+.screen {
+  display: flex;
+  justify-content: center;
+}
+.screen-container {
+  height: 5.5rem;
+  width: 20.3125rem;
+  margin-left: 1.5625rem;
+  margin-right: 1.5625rem;
+  margin-bottom: 1.5625rem;
+  border-radius: 0.625rem;
+}
+@media (min-width: 40em) {
+  .screen-container {
+    height: 8rem;
+    width: 33.75rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.screen-numbers {
+  font-size: 2.1875rem;
+  margin-top: 0.3125rem;
+  margin-left: 1.5625rem;
+  width: 90%;
+  height: 50%;
+}
+.screen-total {
+  margin-left: 1.5625rem;
+  width: 90%;
+  height: 50%;
+  text-align: right;
+}

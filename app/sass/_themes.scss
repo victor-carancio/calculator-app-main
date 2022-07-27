@@ -1,0 +1,185 @@
+.dark-theme{
+    background: $theme-one-background;
+    color: $white;
+
+    input{
+        color: $screen-font-color;
+    }
+
+    .screen{
+        &-container{
+            
+            background: $theme-one-screen;
+        }
+    }
+
+    .content{
+        &-container{
+            background: $theme-one-toggle;
+        }
+    }
+
+    .toggle{
+        &-rectangle{
+            background: $theme-one-toggle;
+        }
+
+        &-circle{
+            background: $equal-keys-background;
+        }
+    }
+    .button{
+        border-bottom: 0.25rem solid $normal-key-shadow;
+        background: $normal-key-background;
+        color: $normal-key-font;
+        &:hover{
+            cursor: pointer;
+            background: $white;        
+        }
+
+        &-erase{
+            
+            background: $erase-keys-background;
+            border-bottom: 0.25rem solid $erase-keys-shadow;
+            color: $white;
+            &:hover{
+                background: $erase-keys-hover;
+            }     
+        }
+    
+        &-equal{
+            background: $equal-keys-background;
+            border-bottom: 0.25rem solid $equal-keys-shadow;
+            color: $white;
+    
+            &:hover{
+                background: $equal-keys-hover;
+            }
+        }
+    }
+
+
+}
+
+.light-theme{
+    background: $theme-two-background;
+    color: $normal-key-font-two;
+
+    input{
+        color: $normal-key-font-two;
+    }
+
+    .screen{
+        &-container{
+            background: $theme-two-screen;
+        }
+    }
+
+    .content{
+        &-container{
+            background: $theme-two-toggle;
+        }
+    }
+
+    .toggle{
+        &-rectangle{
+            background: $theme-two-toggle;
+        }
+
+        &-circle{
+            background: $equal-keys-background-two;
+        }
+    }
+
+    .button{
+        border-bottom: 0.25rem solid $normal-key-shadow-two;
+        background: $normal-key-background-two;
+        color: $normal-key-font-two;;
+        &:hover{
+            cursor: pointer;
+            background: $white;        
+        }
+
+        &-erase{
+            
+            background: $erase-keys-background-two;
+            border-bottom: 0.25rem solid $erase-keys-shadow-two;
+            color: $white;
+            &:hover{
+                background: $erase-keys-hover-two;
+            }     
+        }
+    
+        &-equal{
+            background: $equal-keys-background-two;
+            border-bottom: 0.25rem solid $equal-keys-shadow-two;
+            color: $white;
+    
+            &:hover{
+                background: $equal-keys-hover-two;
+            }
+        }
+    }
+}
+
+.purple-theme{
+    background: $theme-three-background;
+    color: $screen-font-color-three;
+
+    input{
+        color: $screen-font-color-three;
+    }
+
+    .screen{
+        &-container{
+            background: $theme-three-screen;
+        }
+    }
+
+    .content{
+        &-container{
+            background: $theme-three-toggle;
+        }
+    }
+
+    .toggle{
+        &-rectangle{
+            background: $theme-three-toggle;
+        }
+
+        &-circle{
+            background: $equal-keys-background-three;
+        }
+    }
+
+    
+    .button{
+        border-bottom: 0.25rem solid $normal-key-shadow-three;
+        background: $normal-key-background-three;
+        color: $normal-key-font-three;
+        &:hover{
+            cursor: pointer;
+            background: $normal-key-hover-three;        
+        }
+
+        &-erase{
+            
+            background: $erase-keys-background-three;
+            border-bottom: 0.25rem solid $erase-keys-shadow-three;
+            color: $white;
+            &:hover{
+                background: $erase-keys-hover-three;
+            }     
+        }
+    
+        &-equal{
+            background: $equal-keys-background-three;
+            border-bottom: 0.25rem solid $equal-keys-shadow-three;
+            color: $erase-key-font;
+    
+            &:hover{
+                background: $equal-keys-hover-three;
+            }
+        }
+    }
+}

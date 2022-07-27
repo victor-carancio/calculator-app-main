@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    min-width: 23.4375rem;
+  
+    .main-container{
+        width: 100%; 
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    @include breakpoint-up(medium){
+        min-width: 33.75rem;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+   
+    
+    border: none;
+    border-radius: 0.625rem;
+    background: none;
+    font-size: $font-xmed;
+    
+
+    @include breakpoint-up(medium){
+        font-size: $font-xlg;
+    }
+}
+
+.button{ 
+    border: none; 
+    font-size: $font-med;
+    border-radius: 0.625rem;
+    @include breakpoint-up(medium){
+        font-size: $font-lg;
+    }
+    &:hover{
+        cursor: pointer;       
+    }
+    &:active{
+        border-bottom: none;
+    }
+    
+    &-erase{
+        font-size: $font-smed;   
+    }
+
+    
+}

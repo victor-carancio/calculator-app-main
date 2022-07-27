@@ -1,0 +1,86 @@
+.content{
+    display: flex;
+    justify-content: center;
+    
+    &-container{
+        height: 26.25rem;
+        width: 20.3125rem;
+        border-radius: 0.625rem;
+        display: grid;
+        gap: 0.9375rem;
+        grid-template-columns: repeat(4,3.75rem);
+        grid-template-rows: repeat(4, 4.0625rem) 4.0625rem;
+        grid-template-areas: "seven eight nine del"
+                             "four five six plus"
+                             "one two three less"
+                             "dott zeroo split multiplyy"
+                             "resett resett equal equal";
+        justify-content: center;
+        align-content: center;
+       
+        @include breakpoint-up(medium){
+            
+            height: 30rem;
+            width: 33.75rem;
+            gap:1.25rem;
+            grid-template-columns: repeat(4,6.25rem);
+        
+        }
+    }
+
+    &-one{
+        grid-area: one;
+    }
+
+    &-two{
+        grid-area: two;
+    }
+    &-three{
+        grid-area: three;
+    }
+    &-four{
+        grid-area: four;
+    }
+    &-five{
+        grid-area: five;
+    }
+    &-six{
+        grid-area: six;
+    }
+    &-seven{
+        grid-area: seven;
+    }
+    &-eight{
+        grid-area: eight;
+    }
+    &-nine{
+        grid-area: nine;
+    }
+    &-zero{
+        grid-area: zeroo;
+    }
+    &-plus{
+        grid-area: plus;
+    }
+    &-less{
+        grid-area: less;
+    }
+    &-multiply{
+        grid-area: multiplyy;
+    }
+    &-split{
+        grid-area: split;
+    }
+    &-del{
+        grid-area: del;
+    }
+    &-reset{
+        grid-area: resett;
+    }
+    &-equal{
+        grid-area: equal;
+    }
+    &-dot{
+        grid-area: dott;
+    }
+}

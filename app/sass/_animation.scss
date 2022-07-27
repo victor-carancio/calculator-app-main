@@ -1,0 +1,50 @@
+.on-purple{
+    animation: to-purple 300ms ease-in-out forwards;
+}
+
+@keyframes to-purple{
+    from{
+        transform: translateX(150%);
+    }
+
+    to{
+        transform: translateX(300%);
+    }
+}
+
+.on-light{
+    animation: to-light 300ms ease-in-out forwards;
+    
+}
+
+@keyframes to-light{
+    from{
+        transform: translateX(0%);
+    }
+
+    to{
+        transform: translateX(150%);
+    }
+
+    
+}
+
+.on-dark{
+    animation: to-dark 300ms ease-in-out forwards;
+    
+}
+
+@keyframes to-dark{
+    from{
+        transform: translateX(300%);
+    }
+
+    to{
+        transform: translateX(0%);
+    }
+}
+
+.default-theme{
+    transform: translateX(0%);
+}
+
