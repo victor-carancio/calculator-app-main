@@ -1,25 +1,22 @@
-.screen{
+.screen {
     display: flex;
     justify-content: center;
-    &-container{
+    &-container {
         height: 5.5rem;
         width: 20.3125rem;
-        
         margin-left: 1.5625rem;
         margin-right: 1.5625rem;
         margin-bottom: 1.5625rem;
         border-radius: 0.625rem;
-        @include breakpoint-up(medium){
-            
+        @include breakpoint-up(medium) {
             height: 8rem;
             width: 33.75rem;
             margin-left: 0;
             margin-right: 0;
-        
         }
     }
 
-    &-numbers{
+    &-numbers {
         font-size: $font-xmed;
         margin-top: 0.3125rem;
         margin-left: 1.5625rem;
@@ -27,8 +24,7 @@
         height: 50%;
     }
 
-    &-total{
-        
+    &-total {
         margin-left: 1.5625rem;
         width: 90%;
         height: 50%;

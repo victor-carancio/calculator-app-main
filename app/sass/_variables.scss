@@ -6,7 +6,6 @@ $font-xmed: 2.1875rem;
 $font-med: 1.875rem;
 $font-smed: 1.5625rem;
 
-
 //theme dark
 
 //backgrounds
@@ -14,13 +13,12 @@ $theme-one-background: hsl(222, 26%, 31%); // (main background)
 $theme-one-toggle: hsl(223, 31%, 20%); //(toggle background, keypad background)
 $theme-one-screen: hsl(224, 36%, 15%); //(screen background)
 
-
 //fonts
 
 $white: white;
 $screen-font-color: hsl(30, 25%, 89%); //(key background)
 $normal-key-font: hsl(222, 26%, 31%);
-    
+
 //normal keys
 $normal-key-background: hsl(30, 25%, 89%); //(key background)
 $normal-key-hover: hsl(30, 25%, 89%, 90%);
@@ -36,7 +34,6 @@ $equal-keys-background: hsl(6, 63%, 50%); //(key background, toggle)
 $equal-keys-hover: hsl(6, 76%, 64%);
 $equal-keys-shadow: hsl(6, 70%, 34%); //(key shadow)
 
-
 //theme light
 
 //backgrounds
@@ -49,7 +46,6 @@ $theme-two-screen: hsl(0, 0%, 93%); //(screen background)
 $white: white;
 
 $normal-key-font-two: hsl(60, 10%, 19%);
-
 
 //normal keys
 $normal-key-background-two: hsl(45, 7%, 89%); //(key background)
@@ -65,22 +61,23 @@ $equal-keys-background-two: hsl(25, 98%, 40%); //(key background, toggle)
 $equal-keys-hover-two: hsl(6, 80%, 72%);
 $equal-keys-shadow-two: hsl(25, 99%, 27%); //(key shadow)
 
-
 //theme purple
-
 
 //backgrounds
 $theme-three-background: hsl(268, 75%, 9%); // (main background)
-$theme-three-toggle: hsl(268, 71%, 12%); //(toggle background, keypad background)
+$theme-three-toggle: hsl(
+    268,
+    71%,
+    12%
+); //(toggle background, keypad background)
 $theme-three-screen: hsl(268, 71%, 12%); //(screen background)
-
 
 //fonts
 $white: white;
 $screen-font-color-three: hsl(52, 100%, 62%); //(key background)
 $normal-key-font-three: hsl(52, 100%, 62%);
 $erase-key-font: hsl(198, 20%, 13%);
-    
+
 //normal keys
 $normal-key-background-three: hsl(268, 47%, 21%); //(key background)
 $normal-key-hover-three: hsl(268, 35%, 40%);

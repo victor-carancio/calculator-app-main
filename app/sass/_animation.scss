@@ -1,50 +1,45 @@
-.on-purple{
+.on-purple {
     animation: to-purple 300ms ease-in-out forwards;
 }
 
-@keyframes to-purple{
-    from{
+@keyframes to-purple {
+    from {
         transform: translateX(150%);
     }
 
-    to{
+    to {
         transform: translateX(300%);
     }
 }
 
-.on-light{
+.on-light {
     animation: to-light 300ms ease-in-out forwards;
-    
 }
 
-@keyframes to-light{
-    from{
+@keyframes to-light {
+    from {
         transform: translateX(0%);
     }
 
-    to{
+    to {
         transform: translateX(150%);
     }
-
-    
 }
 
-.on-dark{
+.on-dark {
     animation: to-dark 300ms ease-in-out forwards;
-    
 }
 
-@keyframes to-dark{
-    from{
+@keyframes to-dark {
+    from {
         transform: translateX(300%);
     }
 
-    to{
+    to {
         transform: translateX(0%);
     }
 }
 
-.default-theme{
+.default-theme {
     transform: translateX(0%);
 }
-
